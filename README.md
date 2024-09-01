@@ -1,4 +1,7 @@
 # Airline reporting powered with AI
+### Purpose
+The purpose of this Python program is to automate the gathering, reporting, and analysis of data from online airline reviews, and deliver the results directly to your email.
+
 This Python program automates the process of generating reports based on airline review data scraped from the web. It uses topic modeling to extract common themes for different Net Promoter Score (NPS) categories.
 
 The program trains the model on demand, which may take a considerable amount of time to run, especially if the number of airlines and pages to scrape is high.
@@ -12,6 +15,7 @@ Net promoter score is determined as so:
 
 The above depicts the entire workflow of the project.
 
+### Files overview
 In each of the files you can find the following:
 -  scrape.py: Gathers reviews and relevant information like airline and rating from airlinequality.com. The script will prompt for the number of airlines and pages to scrape.
 -  report.py: Generates a PDF report with visualizations using Matplotlib and ReportLab.
