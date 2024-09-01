@@ -21,3 +21,5 @@ In each of the files you can find the following:
 Should look out for the inputs that asks for how much to scrape for in scrape.py and the input of app password for gmail. Rest of the variables one can change them accordingly.
 
 *Note for app password for gmail you have to have 2FA activated.
+
+You can find example output of reports in the folder reports and report_topics as well as the output of the scraping script in data folder.
