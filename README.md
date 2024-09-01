@@ -1,5 +1,7 @@
 # Airline reporting powered with AI
-Python program that makes use of automation to generate reports based on airlines review data that were scraped from the web. Topic modelling done on data to extract common topics for different NPS(Net promoter score) scores.
+This Python program automates the process of generating reports based on airline review data scraped from the web. It uses topic modeling to extract common themes for different Net Promoter Score (NPS) categories.
+
+The program trains the model on demand, which may take a considerable amount of time to run, especially if the number of airlines and pages to scrape is high.
 
 Net promoter score is determined as so:
 - 8 <= promoter
@@ -11,15 +13,17 @@ Net promoter score is determined as so:
 The above depicts the entire workflow of the project.
 
 In each of the files you can find the following:
--  scrape.py: Used to gather reviews and their releavnt information like airline and rating from https://www.airlinequality.com/. Will ask for how many airlines and pages to scrape for.
--  report.py: Generate a pdf report including visualisation using matplotlib and reportlab to achieve so
--  topic_modelling.py: Includes the cleaning and preparations for data. Then conduct LSA and LSI along with fine tuning to get the best model based on the Coherance Score for each of the NPS score. You can change the tuning accordingly (Number of topics).
--  report_topics.py: Take teh output of the best model for each NPS score and write to a pdf with the relevant data
--  send_email.py: Send an email with both the pdfs attached
--  main.py: A python file to streamline the running process, can edit the information regarding the email here.
+-  scrape.py: Gathers reviews and relevant information like airline and rating from airlinequality.com. The script will prompt for the number of airlines and pages to scrape.
+-  report.py: Generates a PDF report with visualizations using Matplotlib and ReportLab.
+-  topic_modelling.py: Handles data cleaning and preparation. It conducts Latent Semantic Analysis (LSA) and Latent Semantic Indexing (LSI), along with fine-tuning to identify the best model based on the Coherence Score for each NPS category. Number of topics can be adjust for tuning, there is no promot for this.
+-  report_topics.py: Takes the output of the best model for each NPS score and generates a PDF with the relevant data.
+-  send_email.py: Sends an email with the generated PDFs attached.
+-  main.py: Streamlines the running process. You can edit email-related information here.
 
-Should look out for the inputs that asks for how much to scrape for in scrape.py and the input of app password for gmail. Rest of the variables one can change them accordingly.
+###Important Notes:
+- Inputs: Be mindful of inputs requested by scrape.py, such as the number of airlines and pages to scrape, and the Gmail app password in send_email.py. You can change other variables as needed.
+Best Model Output: The best model output for each NPS score is saved in the best_topic_models folder.
+- Gmail App Password: Ensure you have two-factor authentication (2FA) activated for Gmail to generate an app password.
 
-*Note for app password for gmail you have to have 2FA activated.
-
-You can find example output of reports in the folder reports and report_topics as well as the output of the scraping script in data folder.
+###Example Outputs:
+You can find example reports in the reports and report_topics folders, as well as the output of the scraping script in the data folder.
