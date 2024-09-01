@@ -20,10 +20,10 @@ In each of the files you can find the following:
 -  send_email.py: Sends an email with the generated PDFs attached.
 -  main.py: Streamlines the running process. You can edit email-related information here.
 
-###Important Notes:
+### Important Notes:
 - Inputs: Be mindful of inputs requested by scrape.py, such as the number of airlines and pages to scrape, and the Gmail app password in send_email.py. You can change other variables as needed.
 Best Model Output: The best model output for each NPS score is saved in the best_topic_models folder.
 - Gmail App Password: Ensure you have two-factor authentication (2FA) activated for Gmail to generate an app password.
 
-###Example Outputs:
+### Example Outputs:
 You can find example reports in the reports and report_topics folders, as well as the output of the scraping script in the data folder.
