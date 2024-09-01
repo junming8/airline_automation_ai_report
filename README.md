@@ -2,7 +2,7 @@
 Python program that makes use of automation to generate reports based on airlines review data that were scraped from the web. Topic modelling done on data to extract common topics for different NPS(Net promoter score) scores.
 
 Net promoter score is determined as so:
-- 8 >= promoter
+- 8 <= promoter
 - 5 >= detractor
 - 6-7 = Neutral
 
