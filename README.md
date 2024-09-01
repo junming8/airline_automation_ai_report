@@ -31,4 +31,6 @@ Best Model Output: The best model output for each NPS score is saved in the best
 - Requirements.txt: Contains all the relevant python libraries used.
 
 ### Example Outputs:
-You can find example reports in the reports and report_topics folders, as well as the output of the scraping script in the data folder.
+You can find example reports in the reports and report_topics folders, as well as the output of the scraping script in the data folder. The output of the final models can be found in the best_topic_models.json file.
+
+Note: For the sake of generating example outputs, only a few airlines and a limited number of pages were selected. This means that the models are trained on less data, which could result in insufficient training data. As a consequence, you may notice a lower coherence score in the output file for the best models.
