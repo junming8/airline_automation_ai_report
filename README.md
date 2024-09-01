@@ -20,7 +20,7 @@ In each of the files you can find the following:
 -  scrape.py: Gathers reviews and relevant information like airline and rating from airlinequality.com. The script will prompt for the number of airlines and pages to scrape.
 -  report.py: Generates a PDF report with visualizations using Matplotlib and ReportLab.
 -  topic_modelling.py: Handles data cleaning and preparation. It conducts Latent Semantic Analysis (LSA) and Latent Semantic Indexing (LSI), along with fine-tuning to identify the best model based on the Coherence Score for each NPS category. Number of topics can be adjust for tuning, there is no promot for this.
--  report_topics.py: Takes the output of the best model for each NPS score and generates a PDF with the relevant data using fpdf.
+-  report_topics.py: Takes the output of the best model for each NPS score and generates a PDF with the relevant data using fpdf. This aims to provide some insights to common topics in each one of the NPS score and identify trends.
 -  send_email.py: Sends an email with the generated PDFs attached.
 -  main.py: Streamlines the running process. You can edit email-related information here.
 
