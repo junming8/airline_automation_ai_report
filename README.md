@@ -1,6 +1,6 @@
 # Airline reporting powered with AI
 ### Purpose
-The purpose of this Python program is to automate the gathering, reporting, and analysis of data from online airline reviews, and deliver the results directly to your email.
+The purpose of this Python program is to automate the gathering, reporting, and analysis of data from online airline reviews, and deliver the results directly to one's email.
 
 This Python program automates the process of generating reports based on airline review data scraped from the web. It uses topic modeling to extract common themes for different Net Promoter Score (NPS) categories.
 
@@ -25,12 +25,12 @@ In each of the files you can find the following:
 -  main.py: Streamlines the running process. You can edit email-related information here.
 
 ### Important Notes:
-- Inputs: Be mindful of inputs requested by scrape.py, such as the number of airlines and pages to scrape, and the Gmail app password in send_email.py. You can change other variables as needed.
-Best Model Output: The best model output for each NPS score is saved in the best_topic_models folder.
-- Gmail App Password: Ensure you have two-factor authentication (2FA) activated for Gmail to generate an app password.
+- Inputs: Be mindful of inputs requested by scrape.py, such as the number of airlines and pages to scrape, and the Gmail app password in send_email.py. Variables are to be changed accordingly.
+- Best Model Output: The best model output for each NPS score is saved in the best_topic_models folder.
+- Gmail App Password: Ensure two-factor authentication (2FA) is activated for Gmail to generate an app password.
 - Requirements.txt: Contains all the relevant python libraries used.
 
 ### Example Outputs:
 You can find example reports in the reports and report_topics folders, as well as the output of the scraping script in the data folder. The output of the final models can be found in the best_topic_models.json file.
 
-Note: For the sake of generating example outputs, only a few airlines and a limited number of pages were selected. This means that the models are trained on less data, which could result in insufficient training data. As a consequence, you may notice a lower coherence score in the output file for the best models.
+Note: For the sake of generating example outputs, only a few airlines and a limited number of pages were selected. This means that the models are trained on less data, which could result in insufficient training data. As a consequence, there may be a lower coherence score in the output file for the best models.
