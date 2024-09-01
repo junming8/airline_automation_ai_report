@@ -1,0 +1,59 @@
+{
+    "Promoters": {
+        "best_model_type": "LDA + TF-IDF",
+        "best_num_topics": 3,
+        "best_coherence_score": 0.6566191983155295,
+        "topics": [
+            [
+                0,
+                "0.014*\"job\" + 0.010*\"signature\" + 0.009*\"improve\" + 0.009*\"sympathetic\" + 0.008*\"speaking\" + 0.008*\"ample\" + 0.008*\"domestic\" + 0.008*\"member\" + 0.008*\"comfortable\" + 0.008*\"know\""
+            ],
+            [
+                1,
+                "0.009*\"long\" + 0.009*\"water\" + 0.008*\"across\" + 0.008*\"short\" + 0.008*\"sure\" + 0.008*\"visible\" + 0.008*\"high\" + 0.008*\"process\" + 0.007*\"professional\" + 0.007*\"along\""
+            ],
+            [
+                2,
+                "0.009*\"rep\" + 0.009*\"exact\" + 0.009*\"stupidity\" + 0.008*\"consistent\" + 0.008*\"speaking\" + 0.008*\"love\" + 0.008*\"aircraft\" + 0.008*\"across\" + 0.008*\"name\" + 0.007*\"time\""
+            ]
+        ]
+    },
+    "Neutrals": {
+        "best_model_type": "LSI + Count",
+        "best_num_topics": 3,
+        "best_coherence_score": 0.40250261089613165,
+        "topics": [
+            [
+                0,
+                "0.319*\"n\" + 0.213*\"cabin_crew\" + 0.213*\"herringbone\" + 0.213*\"fine\" + 0.213*\"business\" + 0.141*\"little\" + 0.114*\"strategy\" + 0.106*\"business_class\" + 0.106*\"bed\" + 0.106*\"welcome\""
+            ],
+            [
+                1,
+                "0.232*\"waiting\" + 0.215*\"class\" + 0.215*\"rude\" + 0.215*\"perspective\" + 0.215*\"busy\" + 0.142*\"itinerary\" + 0.125*\"first\" + 0.125*\"size\" + -0.110*\"n\" + 0.108*\"always\""
+            ],
+            [
+                2,
+                "0.316*\"level\" + 0.316*\"prepared\" + 0.316*\"beyond\" + 0.290*\"itinerary\" + 0.158*\"flat\" + 0.158*\"completely\" + 0.158*\"flight\" + 0.158*\"overly\" + 0.158*\"name\" + 0.158*\"knowing\""
+            ]
+        ]
+    },
+    "Detractors": {
+        "best_model_type": "LSI + Count",
+        "best_num_topics": 3,
+        "best_coherence_score": 0.7524750568606414,
+        "topics": [
+            [
+                0,
+                "0.550*\"said_would\" + 0.295*\"next_day\" + 0.204*\"could_not\" + 0.197*\"amateur\" + 0.160*\"found\" + 0.142*\"charge\" + 0.136*\"treatment\" + 0.132*\"seem\" + 0.129*\"understandable\" + 0.099*\"handed\""
+            ],
+            [
+                1,
+                "0.441*\"next_day\" + -0.262*\"amateur\" + 0.202*\"understandable\" + 0.192*\"said_would\" + -0.187*\"found\" + -0.172*\"far\" + -0.162*\"could\" + 0.141*\"napkin\" + -0.120*\"treatment\" + -0.119*\"coffee\""
+            ],
+            [
+                2,
+                "0.480*\"said_would\" + -0.261*\"understandable\" + -0.249*\"next_day\" + -0.224*\"amateur\" + -0.153*\"could_not\" + -0.145*\"wrong\" + -0.143*\"therefore\" + 0.130*\"unprofessional\" + -0.128*\"find\" + -0.122*\"treatment\""
+            ]
+        ]
+    }
+}
